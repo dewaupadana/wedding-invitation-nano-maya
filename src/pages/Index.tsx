@@ -1,12 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import CoverSection from '@/components/wedding/CoverSection';
+import CountdownSection from '@/components/wedding/CountdownSection';
+import CoupleSection from '@/components/wedding/CoupleSection';
+import EventSection from '@/components/wedding/EventSection';
+import GallerySection from '@/components/wedding/GallerySection';
+import RsvpSection from '@/components/wedding/RsvpSection';
+import GiftSection from '@/components/wedding/GiftSection';
+import WishesSection from '@/components/wedding/WishesSection';
+import FooterSection from '@/components/wedding/FooterSection';
 
 const Index = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* Cover / Opening */}
+      <CoverSection isOpen={isOpen} onOpen={() => setIsOpen(true)} />
+
+      {/* Main Content - only visible after opening */}
+      {isOpen && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+          className="max-w-[430px] mx-auto overflow-hidden"
+        >
+          <CountdownSection />
+          <CoupleSection />
+          <EventSection />
+          <GallerySection />
+          <RsvpSection />
+          <GiftSection />
+          <WishesSection />
+          <FooterSection />
+        </motion.div>
+      )}
     </div>
   );
 };
