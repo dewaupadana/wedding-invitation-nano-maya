@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import useEmblaCarousel from 'embla-carousel-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
 import gallery1 from '@/assets/gallery-1.jpg';
@@ -13,6 +14,7 @@ const photos = [gallery1, gallery2, gallery3, gallery4];
 const GallerySection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const [selected, setSelected] = useState<number | null>(null);
+  const [emblaRef] = useEmblaCarousel({ loop: true, align: 'center' });
 
   return (
     <section ref={ref} className="py-16 px-6">
@@ -29,13 +31,43 @@ const GallerySection = () => {
         <OrnamentDivider showImage={false} className="mt-4" />
       </motion.div>
 
+      {/* Slider Carousel */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : {}}
+        transition={{ delay: 0.2, duration: 0.6 }}
+        className="mb-6 overflow-hidden"
+        ref={emblaRef}
+      >
+        <div className="flex">
+          {photos.map((photo, i) => (
+            <div
+              key={`slide-${i}`}
+              className="flex-[0_0_75%] min-w-0 px-2"
+            >
+              <div
+                className="aspect-[3/4] overflow-hidden cursor-pointer"
+                onClick={() => setSelected(i)}
+              >
+                <img
+                  src={photo}
+                  alt={`Slide ${i + 1}`}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
+      {/* Grid */}
       <div className="grid grid-cols-2 gap-3">
         {photos.map((photo, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isVisible ? { opacity: 1, scale: 1 } : {}}
-            transition={{ delay: 0.2 + i * 0.1, duration: 0.5 }}
+            transition={{ delay: 0.4 + i * 0.1, duration: 0.5 }}
             onClick={() => setSelected(i)}
             className="cursor-pointer overflow-hidden aspect-square group"
           >

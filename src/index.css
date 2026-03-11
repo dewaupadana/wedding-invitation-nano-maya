@@ -127,7 +127,7 @@
     content: '';
     height: 1px;
     width: 60px;
-    background: linear-gradient(90deg, transparent, hsl(43 72% 52%), transparent);
+    background: linear-gradient(90deg, transparent, hsl(40 49% 55%), transparent);
   }
 
   .scrollbar-hide {
