@@ -1,16 +1,18 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
+import footerBg from '@/assets/footer-bg.png';
 
 const FooterSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section ref={ref} className="py-20 px-6 text-center">
+    <section ref={ref} className="relative">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
+        className="py-20 px-6 text-center"
       >
         <OrnamentDivider className="mb-8" />
 
@@ -26,13 +28,29 @@ const FooterSection = () => {
           </p>
           <p className="font-script text-2xl text-primary mt-2">Wika & Iin</p>
         </div>
+      </motion.div>
 
-        <div className="mt-12 pt-6 border-t border-primary/10">
-          <p className="font-body text-xs text-muted-foreground/50">
+      {/* Footer background image section */}
+      <div className="relative w-full h-[400px] overflow-hidden">
+        <img
+          src={footerBg}
+          alt="Wika & Iin"
+          className="w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 text-center pb-8">
+          <p className="font-script text-4xl text-primary mb-2">Wika & Iin</p>
+          <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
+            Wedding Invitation by Naavadays Bali
+          </p>
+          <p className="font-body text-xs text-muted-foreground/50 mt-3">
+            #NAAVADAYS2025
+          </p>
+          <p className="font-body text-[10px] text-muted-foreground/40 mt-4">
             © 2025 — Undangan Digital
           </p>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
