@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/groom.jpg';
-import brideImg from '@/assets/bride.jpg';
+import groomImg from '@/assets/waktu.jpg';
+// import brideImg from '@/assets/bride.jpg';
 
 const EventSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -17,12 +17,17 @@ const EventSection = () => {
         transition={{ duration: 0.8 }}
         className="flex justify-center gap-4 mb-8"
       >
-        <div className="w-32 h-44 overflow-hidden border border-primary/30">
+         <img
+          src={groomImg}
+          alt="Lokasi Pernikahan"
+          className="w-full h-full object-cover opacity-80"
+        />
+        {/* <div className="w-32 h-44 overflow-hidden border border-primary/30">
           <img src={groomImg} alt="Mempelai Pria" className="w-full h-full object-cover" />
-        </div>
-        <div className="w-32 h-44 overflow-hidden border border-primary/30">
+        </div> */}
+        {/* <div className="w-32 h-44 overflow-hidden border border-primary/30">
           <img src={brideImg} alt="Mempelai Wanita" className="w-full h-full object-cover" />
-        </div>
+        </div> */}
       </motion.div>
 
       <motion.div

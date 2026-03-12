@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import heroBg from '@/assets/hero-bg.jpg';
+import heroBg from '@/assets/couple.jpg';
 import OrnamentDivider from './OrnamentDivider';
 
 const HeroSection = () => {
@@ -26,16 +26,16 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="font-display text-sm tracking-[0.3em] uppercase text-foreground/80 mb-4"
         >
-          The Wedding Of
+          PAWIWAHAN
         </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="font-script text-6xl sm:text-7xl text-gold-gradient mb-2"
+          className="font-script text-6xl sm:text-4xl text-gold-gradient mb-2"
         >
-          Wika
+          Dewa Agung Sanjaya
         </motion.h1>
 
         <motion.p
@@ -51,9 +51,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="font-script text-6xl sm:text-7xl text-gold-gradient mb-6"
+          className="font-script text-6xl sm:text-4xl text-gold-gradient mb-6"
         >
-          Iin
+          Dewa Ayu Putri
         </motion.h1>
 
         <motion.p
@@ -62,7 +62,7 @@ const HeroSection = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="font-display text-sm tracking-[0.25em] uppercase text-foreground/70 mb-8"
         >
-          17 Oktober 2025
+          15 April 2026
         </motion.p>
 
         <motion.div

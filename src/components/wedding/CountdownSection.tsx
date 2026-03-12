@@ -46,7 +46,7 @@ const CountdownSection = () => {
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
       >
-        <OrnamentDivider className="mb-8" />
+        {/* <OrnamentDivider className="mb-8" />
 
         <p className="font-body text-lg text-muted-foreground italic leading-relaxed max-w-sm mx-auto mb-2">
           "Tat Tvam Asi"
@@ -60,7 +60,7 @@ const CountdownSection = () => {
 
         <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-6">
           Menghitung Hari
-        </p>
+        </p> */}
 
         <div className="flex justify-center gap-4">
           {timerItems.map((item, i) => (
