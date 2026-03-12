@@ -23,7 +23,7 @@ const CoupleSection = () => {
   ];
 
  return (
-    <section ref={ref} className="py-16 px-6">
+    <section ref={ref} className="py-16 px-6 bg-gradient-to-b from-muted via-muted/80 to-background">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
