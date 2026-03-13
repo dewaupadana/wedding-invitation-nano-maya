@@ -48,7 +48,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              Undangan Pernikahan
+              PAWIWAHAN
             </motion.p>
 
             <motion.h1
