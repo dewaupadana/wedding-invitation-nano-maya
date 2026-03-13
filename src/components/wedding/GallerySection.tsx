@@ -24,11 +24,11 @@ const GallerySection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-10"
       >
-        <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
+        {/* <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
           Momen Bahagia
         </p>
-        <h2 className="font-script text-4xl text-primary">Galeri Foto</h2>
-        <OrnamentDivider showImage={false} className="mt-4" />
+        <h2 className="font-script text-4xl text-primary">Galeri Foto</h2> */}
+        <OrnamentDivider showImage={false} className="mt-1" />
       </motion.div>
 
       {/* Slider Carousel */}

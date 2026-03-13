@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 import { motion } from 'framer-motion';
+import weddingMusic from '@/assets/music/legong.mp3';
 
 interface MusicPlayerProps {
   isPlaying: boolean;
@@ -37,7 +38,8 @@ const MusicPlayer = ({ isPlaying }: MusicPlayerProps) => {
     <>
       <audio
         ref={audioRef}
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        src={weddingMusic}
+        // src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
         loop
       />
       <motion.button

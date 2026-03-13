@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import footerBg from '@/assets/footer-bg.png';
+import footerBg from '@/assets/event.jpg';
 
 const FooterSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -26,7 +26,7 @@ const FooterSection = () => {
           <p className="font-display text-sm text-muted-foreground tracking-wider">
             Kami yang berbahagia
           </p>
-          <p className="font-script text-2xl text-primary mt-2">Wika & Iin</p>
+          <p className="font-script text-2xl text-primary mt-2">Dewa Agung & Dewa Ayu Putri</p>
         </div>
       </motion.div>
 
@@ -39,7 +39,7 @@ const FooterSection = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 text-center pb-8">
-          <p className="font-script text-4xl text-primary mb-2">Wika & Iin</p>
+          <p className="font-script text-4xl text-primary mb-2">Dewa & Dewa Ayu</p>
           <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
             Wedding Invitation by Naavadays Bali
           </p>

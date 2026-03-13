@@ -6,8 +6,8 @@ import CountdownSection from '@/components/wedding/CountdownSection';
 import CoupleSection from '@/components/wedding/CoupleSection';
 import EventSection from '@/components/wedding/EventSection';
 import ClosingPhotoSection from '@/components/wedding/ClosingPhotoSection';
-import GallerySection from '@/components/wedding/GallerySection';
 import RsvpSection from '@/components/wedding/RsvpSection';
+import GallerySection from '@/components/wedding/GallerySection';
 import GiftSection from '@/components/wedding/GiftSection';
 import WishesSection from '@/components/wedding/WishesSection';
 import FooterSection from '@/components/wedding/FooterSection';
@@ -47,23 +47,23 @@ const Index = () => {
             <CoupleSection />
           </div>
 
-          <CurvedDivider from={bgMuted} to={bgDark} />
+          {/* <CurvedDivider from={bgMuted} to={bgDark} /> */}
 
           <EventSection />
 
           <ClosingPhotoSection />
 
-          <div className="bg-background">
-            <GallerySection />
-          </div>
-
-          <CurvedDivider from={bgDark} to={bgMuted} />
+          {/* <CurvedDivider from={bgDark} to={bgMuted} /> */}
 
           <div className="bg-muted">
             <RsvpSection />
           </div>
 
           <CurvedDivider from={bgMuted} to={bgDark} />
+
+          <div className="bg-background">
+            <GallerySection />
+          </div>
 
           <div className="bg-background">
             <GiftSection />
