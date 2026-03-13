@@ -47,7 +47,6 @@ const Index = () => {
             <CoupleSection />
           </div>
 
-          <CurvedDivider from={bgMuted} to={bgDark} />
 
           <EventSection />
 
