@@ -7,7 +7,7 @@ const HeroSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section ref={ref} className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section ref={ref} className="relative min-h-screen flex flex-col items-center justify-between overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -15,11 +15,11 @@ const HeroSection = () => {
           alt="Wedding Hero"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background/80" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-6 py-20">
+      {/* Top Content - Names */}
+      <div className="relative z-10 text-center px-6 pt-16 sm:pt-20">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
@@ -51,11 +51,14 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="font-script text-6xl sm:text-4xl text-gold-gradient mb-6"
+          className="font-script text-6xl sm:text-4xl text-gold-gradient"
         >
           Dewa Ayu Putri
         </motion.h1>
+      </div>
 
+      {/* Bottom Content - Date & Quote */}
+      <div className="relative z-10 text-center px-6 pb-16 sm:pb-20">
         <motion.p
           initial={{ opacity: 0 }}
           animate={isVisible ? { opacity: 1 } : {}}
