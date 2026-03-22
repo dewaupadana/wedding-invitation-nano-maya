@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/ps1.jpg';
-import brideImg from '@/assets/ps2.jpg';
+import groomImg from '@/assets/TENGANAN-108.jpg';
+import brideImg from '@/assets/TENGANAN-125.jpg';
 
 const CoupleSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -15,10 +15,10 @@ const CoupleSection = () => {
       label: 'Dewa Sanjaya',
     },
     {
-      name: 'Dewa Ayu Putri Diah Anggreni',
-      parent: 'Putri dari Bapak I Dewa & Ibu',
+      name: 'Ns. Dewa Ayu Putri Diah Anggraeny, S. Kep',
+      parent: 'Putri dari Bapak Dewa Putu Alit & Ibu Desak Ketut Indayani',
       image: brideImg,
-      label: 'Dewa Putri',
+      label: 'Dewa Ayu Putri',
     },
   ];
 
@@ -55,7 +55,7 @@ const CoupleSection = () => {
                 <p className="font-script text-xs  text-primary tracking-[0.3em] uppercase my-4">
                   {person.label}
                 </p>
-                <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
                   {person.name}
                 </h3>
                 <p className="font-body text-sm text-muted-foreground max-w-xs">

@@ -4,10 +4,10 @@ import { X } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import gallery1 from '@/assets/gallery-1.jpg';
-import gallery2 from '@/assets/gallery-2.jpg';
-import gallery3 from '@/assets/gallery-3.jpg';
-import gallery4 from '@/assets/gallery-4.jpg';
+import gallery1 from '@/assets/TENGANAN-114.jpg';
+import gallery2 from '@/assets/TENGANAN-7.jpg';
+import gallery3 from '@/assets/TENGANAN-25.jpg';
+import gallery4 from '@/assets/TENGANAN-36.jpg';
 
 const photos = [gallery1, gallery2, gallery3, gallery4];
 
