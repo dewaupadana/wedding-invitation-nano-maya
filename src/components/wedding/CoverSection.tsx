@@ -75,7 +75,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
             >
-              Dewa Ayu Putri
+              Dewa Ayu Putri Baru
             </motion.h1>
 
             <motion.div
