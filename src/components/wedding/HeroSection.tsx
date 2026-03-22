@@ -33,7 +33,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="font-script text-6xl sm:text-4xl text-gold-gradient mb-2"
+          className="font-script text-4xl sm:text-4xl text-gold-gradient mb-2"
         >
           Dewa Agung Sanjaya
         </motion.h1>
@@ -51,7 +51,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="font-script text-6xl sm:text-4xl text-gold-gradient"
+          className="font-script text-4xl sm:text-4xl text-gold-gradient"
         >
           Dewa Ayu Putri
         </motion.h1>

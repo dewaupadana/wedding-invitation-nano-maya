@@ -42,7 +42,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
             </motion.p>
 
             <motion.h1
-              className="font-script text-5xl sm:text-6xl text-white mb-1"
+              className="font-script text-3xl sm:text-6xl text-white mb-1 mt-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
@@ -60,7 +60,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
             </motion.p>
 
             <motion.h1
-              className="font-script text-5xl sm:text-6xl text-white"
+              className="font-script text-3xl sm:text-6xl text-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
