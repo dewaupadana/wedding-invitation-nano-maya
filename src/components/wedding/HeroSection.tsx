@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import heroBg from '@/assets/couple.jpg';
+import heroBg from '@/assets/TENGANAN-43.jpg';
 import OrnamentDivider from './OrnamentDivider';
 
 const HeroSection = () => {
