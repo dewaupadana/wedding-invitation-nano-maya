@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
-import heroBg from '@/assets/cover.jpg';
+import heroBg from '@/assets/NYANYI-177.jpg';
 import ornamentImg from '@/assets/ornament.png';
 
 interface CoverSectionProps {
