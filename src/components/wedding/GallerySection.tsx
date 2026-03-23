@@ -7,12 +7,12 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
 
 // Slider photos
-import slide1 from '@/assets/TENGANAN-114.jpg';
-import slide2 from '@/assets/TENGANAN-7.jpg';
-import slide3 from '@/assets/TENGANAN-25.jpg';
-import slide4 from '@/assets/TENGANAN-36.jpg';
-import slide5 from '@/assets/TENGANAN-108.jpg';
-import slide6 from '@/assets/TENGANAN-113.jpg';
+import slide1 from '@/assets/TENGANAN-114.webp';
+import slide2 from '@/assets/TENGANAN-7.webp';
+import slide3 from '@/assets/TENGANAN-25.webp';
+import slide4 from '@/assets/TENGANAN-36.webp';
+import slide5 from '@/assets/TENGANAN-108.webp';
+import slide6 from '@/assets/TENGANAN-113.webp';
 
 // Grid photos (different from slider)
 import grid1 from '@/assets/TENGANAN-121.jpg';

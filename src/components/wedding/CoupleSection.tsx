@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/TENGANAN-108.jpg';
-import brideImg from '@/assets/TENGANAN-125.jpg';
+import groomImg from '@/assets/TENGANAN-108.webp';
+import brideImg from '@/assets/TENGANAN-125.webp';
 
 const CoupleSection = () => {
   const { ref, isVisible } = useScrollAnimation();
