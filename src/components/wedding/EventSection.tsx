@@ -41,7 +41,7 @@ const EventSection = () => {
           <OrnamentDivider showImage={false} className="mb-6 mt-6" />
 
           <h3 className="font-display text-xl font-semibold text-foreground mb-8 tracking-widest uppercase">
-           ᬒᬁ ᬲ᭄ᬯᬲ᭄ᬢ᭄ᬬᬲ᭄ᬢᬸ
+           ᬒᬁᬲ᭄ᬯᬲ᭄ᬢ᭄ᬬᬲ᭄ᬢᬸ
           </h3>
 
           <p className="font-body text-sm text-muted-foreground leading-relaxed max-w-xs mx-auto mb-8">
