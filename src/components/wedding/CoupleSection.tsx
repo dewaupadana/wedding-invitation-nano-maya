@@ -10,13 +10,21 @@ const CoupleSection = () => {
   const people = [
     {
       name: 'I Dewa Gede Agung Sanjaya Putra',
-      parent: 'Putra dari Bapak Dewa Nyoman Arimbawa & Ibu Ni Nyoman Murniasih (alm)',
+      couple:'Putra Pertama Dari Pasangan',
+      parent: 'Dewa Nyoman Arimbawa',
+      and:'&',
+      parent2: 'Ni Nyoman Murniasih (alm)',
+      lokasi: 'Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali',
       image: groomImg,
       label: 'Dewa Sanjaya',
     },
     {
       name: 'Ns. Dewa Ayu Putri Diah Anggraeny, S. Kep',
-      parent: 'Putri dari Bapak Dewa Putu Alit & Ibu Desak Ketut Indayani',
+      couple:'Putri Pertama Dari Pasangan',
+      parent: 'Dewa Putu Alit',
+      and:'&',
+      parent2: 'Desak Ketut Indayani',
+      lokasi: 'Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali',
       image: brideImg,
       label: 'Dewa Ayu Putri',
     },
@@ -58,8 +66,20 @@ const CoupleSection = () => {
                 <h3 className="font-display text-lg font-semibold text-foreground mb-2">
                   {person.name}
                 </h3>
+                 <p className="font-body text-sm text-muted-foreground max-w-xs mb-1">
+                  {person.couple}
+                </p>
                 <p className="font-body text-sm text-muted-foreground max-w-xs">
                   {person.parent}
+                </p>
+                 <p className="font-body text-sm text-muted-foreground max-w-xs">
+                  {person.and}
+                </p>
+                 <p className="font-body text-sm text-muted-foreground max-w-xs">
+                  {person.parent2}
+                </p>
+                 <p className="font-body text-sm text-muted-foreground max-w-xs mt-6">
+                  {person.lokasi}
                 </p>
               </motion.div>
               { i == 0 ? 

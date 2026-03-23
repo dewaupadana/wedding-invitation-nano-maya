@@ -22,7 +22,7 @@ const FooterSection = () => {
 
         <p className="font-script text-xl text-primary mb-4">ᬒᬵᬁᬰᬦ᭄ᬢᬶᬄᬰᬦ᭄ᬢᬶᬄᬰᬦ᭄ᬢᬶᬄᬒᬵᬁ</p>
 
-        <div className="mt-8">
+        <div className="mt-12">
           <p className="font-display text-sm text-muted-foreground tracking-wider">
             Kami yang berbahagia
           </p>
@@ -38,8 +38,10 @@ const FooterSection = () => {
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
-        <div className="absolute bottom-5 left-0 right-0 text-center pb-8">
-          <p className="font-script text-2xl text-primary mb-4 ">Dewa Agung Sanjaya & Dewa Ayu Putri</p>
+        <div className="absolute bottom-0 left-0 right-0 text-center pb-8">
+          <p className="font-script text-2xl text-primary mb-1 ">Dewa Agung Sanjaya</p>
+          <p className="font-script text-2xl text-primary mb-1 ">&</p>
+          <p className="font-script text-2xl text-primary mb-4 ">Dewa Ayu Putri</p>
           <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
             Wedding Invitation by Inlabs Bali
           </p>
