@@ -110,10 +110,29 @@ const GallerySection = () => {
             >
               <X className="w-6 h-6" />
             </button>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelected(selected > 0 ? selected - 1 : allPhotos.length - 1);
+              }}
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-foreground bg-muted/60 rounded-full p-2 z-10"
+            >
+              <ChevronLeft className="w-6 h-6" />
+            </button>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelected(selected < allPhotos.length - 1 ? selected + 1 : 0);
+              }}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-foreground bg-muted/60 rounded-full p-2 z-10"
+            >
+              <ChevronRight className="w-6 h-6" />
+            </button>
             <motion.img
-              initial={{ scale: 0.8 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.8 }}
+              key={selected}
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
               src={allPhotos[selected]}
               alt="Gallery full"
               className="max-w-full max-h-[80vh] object-contain"
