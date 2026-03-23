@@ -9,12 +9,12 @@ const accounts = [
   {
     bank: 'Bank BCA',
     number: '1234567890',
-    name: 'I Wayan Wika Pratama',
+    name: 'I Dewa Gede Agung Sanjaya Putra',
   },
   {
-    bank: 'Bank Mandiri',
+    bank: 'Bank BCA',
     number: '0987654321',
-    name: 'Ni Kadek Iin Purnama Dewi',
+    name: 'Dewa Ayu Putri Diah Anggraeny',
   },
 ];
 

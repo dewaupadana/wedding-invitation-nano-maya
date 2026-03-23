@@ -8,8 +8,10 @@ import gallery1 from '@/assets/TENGANAN-114.jpg';
 import gallery2 from '@/assets/TENGANAN-7.jpg';
 import gallery3 from '@/assets/TENGANAN-25.jpg';
 import gallery4 from '@/assets/TENGANAN-36.jpg';
+import gallery5 from '@/assets/TENGANAN-36.jpg';
+import gallery6 from '@/assets/TENGANAN-36.jpg';
 
-const photos = [gallery1, gallery2, gallery3, gallery4];
+const photos = [gallery1, gallery2, gallery3, gallery4,gallery5,gallery6];
 
 const GallerySection = () => {
   const { ref, isVisible } = useScrollAnimation();

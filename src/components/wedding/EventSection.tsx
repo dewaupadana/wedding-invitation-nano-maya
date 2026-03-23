@@ -38,7 +38,7 @@ const EventSection = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-center"
         >
-          <OrnamentDivider showImage={true} className="mb-6" />
+          <OrnamentDivider showImage={false} className="mb-6 mt-6" />
 
           <p className="font-body text-sm text-muted-foreground leading-relaxed max-w-xs mx-auto mb-8">
             Atas Asung Kerta Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha Esa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri Upacara Pernikahan kami:
@@ -51,14 +51,14 @@ const EventSection = () => {
           {/* Upacara Pawiwahan */}
           <div className="mb-10">
             <div className="space-y-1 font-body text-sm text-muted-foreground">
-              <p className="font-semibold">Minggu, 17 Agustus 2025</p>
-              <p>Pukul 09.00 - Selesai WITA</p>
-              <p className="max-w-[280px] mx-auto">Pura Keluarga, Br. Teges, Ubud, Gianyar, Bali</p>
+              <p className="font-semibold">Rabu, 15 April 2026</p>
+              <p>Pukul 13.00 WITA - Selesai</p>
+              <p className="max-w-[280px] mx-auto">Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali</p>
             </div>
           </div>
 
           <a
-            href="https://maps.google.com/?q=Ubud+Bali"
+            href="https://maps.app.goo.gl/f6aQdJKS29SM6ubEA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 border border-primary text-primary font-display text-xs tracking-[0.2em] uppercase
