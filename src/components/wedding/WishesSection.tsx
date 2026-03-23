@@ -19,7 +19,7 @@ interface Wish {
   created_at: string;
 }
 
-const WISHES_PER_PAGE = 10;
+const WISHES_PER_PAGE = 5;
 
 const WishesSection = () => {
   const { ref, isVisible } = useScrollAnimation();
