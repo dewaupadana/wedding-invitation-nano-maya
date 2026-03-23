@@ -30,8 +30,8 @@ const CoupleSection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-10"
       >
-        <p className="font-script text-3xl text-primary mb-2">Om Swastyastu</p>
-        <OrnamentDivider showImage={false} />
+        {/* <p className="font-script text-3xl text-primary mb-2">Om Swastyastu</p> */}
+        {/* <OrnamentDivider showImage={false} /> */}
       </motion.div>
 
       <div className="space-y-10">

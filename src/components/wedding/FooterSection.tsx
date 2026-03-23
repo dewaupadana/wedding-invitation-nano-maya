@@ -20,13 +20,13 @@ const FooterSection = () => {
           Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.
         </p>
 
-        <p className="font-script text-3xl text-primary mb-2">Om Shanti Shanti Shanti Om</p>
+        <p className="font-script text-xl text-primary mb-4">ᬒᬵᬁᬰᬦ᭄ᬢᬶᬄᬰᬦ᭄ᬢᬶᬄᬰᬦ᭄ᬢᬶᬄᬒᬵᬁ</p>
 
         <div className="mt-8">
           <p className="font-display text-sm text-muted-foreground tracking-wider">
             Kami yang berbahagia
           </p>
-          <p className="font-script text-2xl text-primary mt-2">Dewa Agung Sanjaya & Dewa Ayu Putri</p>
+          <p className="font-script text-xl text-primary mt-6">Dewa Agung Sanjaya & Dewa Ayu Putri</p>
         </div>
       </motion.div>
 
@@ -34,21 +34,21 @@ const FooterSection = () => {
       <div className="relative w-full h-[600px] overflow-hidden">
         <img
           src={footerBg}
-          alt="Wika & Iin"
+          alt="Dewa & Dewa Ayu"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 text-center pb-8">
-          <p className="font-script text-4xl text-primary mb-2">Dewa & Dewa Ayu</p>
+        <div className="absolute bottom-5 left-0 right-0 text-center pb-8">
+          <p className="font-script text-2xl text-primary mb-4 ">Dewa Agung Sanjaya & Dewa Ayu Putri</p>
           <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
             Wedding Invitation by Inlabs Bali
           </p>
           <p className="font-body text-xs text-muted-foreground/50 mt-3">
             #INLABS2026
           </p>
-          <p className="font-body text-[10px] text-muted-foreground/40 mt-4">
+          {/* <p className="font-body text-[10px] text-muted-foreground/40 mt-4">
             © 2026 — Undangan Digital
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
