@@ -21,9 +21,17 @@ import grid3 from '@/assets/TENGANAN-48.jpg';
 import grid4 from '@/assets/TENGANAN-57.jpg';
 import grid5 from '@/assets/TENGANAN-70.jpg';
 import grid6 from '@/assets/TENGANAN-79.jpg';
+import grid7 from '@/assets/NYANYI-26.jpg';
+import grid8 from '@/assets/NYANYI-89.jpg';
+import grid9 from '@/assets/NYANYI-213.jpg';
+import grid10 from '@/assets/NYANYI-215.jpg';
+import grid11 from '@/assets/NYANYI-199.jpg';
+import grid12 from '@/assets/NYANYI-220.jpg';
+import grid13 from '@/assets/NYANYI-175.jpg';
+import grid14 from '@/assets/NYANYI-222.jpg';
 
 const sliderPhotos = [slide1, slide2, slide3, slide4, slide5, slide6];
-const gridPhotos = [grid1, grid2, grid3, grid4, grid5, grid6];
+const gridPhotos = [grid1, grid2, grid3, grid4, grid5, grid6, grid7, grid8, grid9, grid10, grid11, grid12, grid13, grid14];
 const allPhotos = [...sliderPhotos, ...gridPhotos];
 
 const GallerySection = () => {

@@ -12,8 +12,8 @@ const accounts = [
     name: 'I Dewa Gede Agung Sanjaya Putra',
   },
   {
-    bank: 'Bank BCA',
-    number: '0987654321',
+    bank: 'BPD Bali ',
+    number: '0310215001930',
     name: 'Dewa Ayu Putri Diah Anggraeny',
   },
 ];

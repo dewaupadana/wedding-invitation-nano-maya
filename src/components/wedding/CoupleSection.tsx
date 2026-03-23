@@ -16,7 +16,7 @@ const CoupleSection = () => {
       parent2: 'Ni Nyoman Murniasih (alm)',
       lokasi: 'Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali',
       image: groomImg,
-      label: 'Dewa Sanjaya',
+      label: 'Dewa Agung Sanjaya',
     },
     {
       name: 'Ns. Dewa Ayu Putri Diah Anggraeny, S. Kep',
@@ -24,7 +24,7 @@ const CoupleSection = () => {
       parent: 'Dewa Putu Alit',
       and:'&',
       parent2: 'Desak Ketut Indayani',
-      lokasi: 'Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali',
+      lokasi: 'Br. Kabetan Kelod, Ds. Bakbakan, Gianyar, Bali',
       image: brideImg,
       label: 'Dewa Ayu Putri',
     },
@@ -60,7 +60,7 @@ const CoupleSection = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <p className="font-script text-xs  text-primary tracking-[0.3em] uppercase my-4">
+                <p className="font-script text-xl sm:text-lg tracking-[0.1em] text-gold-gradient mb-2">
                   {person.label}
                 </p>
                 <h3 className="font-display text-lg font-semibold text-foreground mb-2">
