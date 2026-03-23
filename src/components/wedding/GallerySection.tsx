@@ -1,22 +1,38 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import gallery1 from '@/assets/TENGANAN-114.jpg';
-import gallery2 from '@/assets/TENGANAN-7.jpg';
-import gallery3 from '@/assets/TENGANAN-25.jpg';
-import gallery4 from '@/assets/TENGANAN-36.jpg';
-import gallery5 from '@/assets/TENGANAN-36.jpg';
-import gallery6 from '@/assets/TENGANAN-36.jpg';
 
-const photos = [gallery1, gallery2, gallery3, gallery4,gallery5,gallery6];
+// Slider photos
+import slide1 from '@/assets/TENGANAN-114.jpg';
+import slide2 from '@/assets/TENGANAN-7.jpg';
+import slide3 from '@/assets/TENGANAN-25.jpg';
+import slide4 from '@/assets/TENGANAN-36.jpg';
+import slide5 from '@/assets/TENGANAN-108.jpg';
+import slide6 from '@/assets/TENGANAN-113.jpg';
+
+// Grid photos (different from slider)
+import grid1 from '@/assets/TENGANAN-121.jpg';
+import grid2 from '@/assets/TENGANAN-130.jpg';
+import grid3 from '@/assets/TENGANAN-48.jpg';
+import grid4 from '@/assets/TENGANAN-57.jpg';
+import grid5 from '@/assets/TENGANAN-70.jpg';
+import grid6 from '@/assets/TENGANAN-79.jpg';
+
+const sliderPhotos = [slide1, slide2, slide3, slide4, slide5, slide6];
+const gridPhotos = [grid1, grid2, grid3, grid4, grid5, grid6];
+const allPhotos = [...sliderPhotos, ...gridPhotos];
 
 const GallerySection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const [selected, setSelected] = useState<number | null>(null);
-  const [emblaRef] = useEmblaCarousel({ loop: true, align: 'center' });
+  const [emblaRef] = useEmblaCarousel(
+    { loop: true, align: 'center' },
+    [Autoplay({ delay: 3000, stopOnInteraction: false })]
+  );
 
   return (
     <section ref={ref} className="py-16 px-6">
@@ -26,14 +42,10 @@ const GallerySection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-10"
       >
-        {/* <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
-          Momen Bahagia
-        </p>
-        <h2 className="font-script text-4xl text-primary">Galeri Foto</h2> */}
         <OrnamentDivider showImage={false} className="mt-1" />
       </motion.div>
 
-      {/* Slider Carousel */}
+      {/* Auto-sliding Carousel */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
@@ -42,7 +54,7 @@ const GallerySection = () => {
         ref={emblaRef}
       >
         <div className="flex">
-          {photos.map((photo, i) => (
+          {sliderPhotos.map((photo, i) => (
             <div
               key={`slide-${i}`}
               className="flex-[0_0_75%] min-w-0 px-2"
@@ -62,15 +74,15 @@ const GallerySection = () => {
         </div>
       </motion.div>
 
-      {/* Grid */}
+      {/* Grid with different photos */}
       <div className="grid grid-cols-2 gap-3">
-        {photos.map((photo, i) => (
+        {gridPhotos.map((photo, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isVisible ? { opacity: 1, scale: 1 } : {}}
             transition={{ delay: 0.4 + i * 0.1, duration: 0.5 }}
-            onClick={() => setSelected(i)}
+            onClick={() => setSelected(sliderPhotos.length + i)}
             className="cursor-pointer overflow-hidden aspect-square group"
           >
             <img
@@ -102,7 +114,7 @@ const GallerySection = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
-              src={photos[selected]}
+              src={allPhotos[selected]}
               alt="Gallery full"
               className="max-w-full max-h-[80vh] object-contain"
             />
