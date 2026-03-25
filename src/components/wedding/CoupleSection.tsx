@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/TENGANAN-108.webp';
+import groomImg from '@/assets/TENGANAN-108 (1).webp';
 import brideImg from '@/assets/TENGANAN-125.webp';
 
 const CoupleSection = () => {
@@ -30,6 +30,11 @@ const CoupleSection = () => {
     },
   ];
 
+//   const mepandesPeople = [
+//   "I Dewa Gede Alit Upadana",
+//   "Dewa Ayu Nyoman Narira Tana",
+// ];
+
  return (
     <section ref={ref} className="py-16 px-6 mb-12 bg-gradient-to-b from-muted via-muted/80 to-background">
       <motion.div
@@ -38,7 +43,7 @@ const CoupleSection = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-10"
       >
-        {/* <p className="font-script text-3xl text-primary mb-2">Om Swastyastu</p> */}
+        {/* <p className="font-script text-3xl text-primary mb-2">Mepandes</p> */}
         {/* <OrnamentDivider showImage={false} /> */}
       </motion.div>
 
@@ -96,6 +101,21 @@ const CoupleSection = () => {
           );
           })}
       </div>     
+       <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={isVisible ? { opacity: 1, y: 0 } : {}}
+        transition={{delay: 1.2, duration: 0.8 }}
+        className="text-center mt-16"
+      >
+        <p className="font-script text-3xl text-primary mb-4">Mepandes</p>
+        <OrnamentDivider showImage={false} />
+      </motion.div>
+      <p className="font-script text-center text-lg tracking-wide text-muted-foreground mt-8">
+        I Dewa Gede Alit Upadana
+      </p>
+      <p className="font-script text-center text-lg tracking-wide text-muted-foreground mt-4">
+        Dewa Ayu Nyoman Narira Tana
+      </p>
     </section>
   );
 };
