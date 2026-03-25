@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/TENGANAN-108 (1).webp';
+import groomImg from '@/assets/TENGANAN-108.jpg';
 import brideImg from '@/assets/TENGANAN-125.webp';
 
 const CoupleSection = () => {
@@ -36,7 +36,7 @@ const CoupleSection = () => {
 // ];
 
  return (
-    <section ref={ref} className="py-16 px-6 mb-12 bg-gradient-to-b from-muted via-muted/80 to-background">
+    <section ref={ref} className="py-16 px-6 mb-6 bg-gradient-to-b from-muted via-muted/80 to-background">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
