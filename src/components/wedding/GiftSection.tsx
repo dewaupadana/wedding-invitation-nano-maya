@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 const accounts = [
   {
     bank: 'Bank BCA',
-    number: '1234567890',
+    number: '4160594646',
     name: 'I Dewa Gede Agung Sanjaya Putra',
   },
   {

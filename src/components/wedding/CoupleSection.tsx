@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/webp/TENGANAN-108.webp';
-import brideImg from '@/assets/webp/TENGANAN-125.webp';
+import groomImg from '@/assets/TENGANAN-108.jpeg';
+import brideImg from '@/assets/TENGANAN-125.jpeg';
 
 const CoupleSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -58,7 +58,7 @@ const CoupleSection = () => {
                 transition={{ delay: 0.3 + i * 0.3, duration: 0.8 }}
                 className="flex flex-col items-center text-center"
               >
-              <div className="w-64 h-96 rounded-full overflow-hidden border-2 border-primary/40 mb-4 p-1">
+              <div className="w-64 h-96 rounded-full overflow-hidden border-2 border-primary/40 mb-4">
                   <img
                     src={person.image}
                     alt={person.name}

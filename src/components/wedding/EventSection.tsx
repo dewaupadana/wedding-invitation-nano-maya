@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/webp/TENGANAN-88.webp';
+import groomImg from '@/assets/TENGANAN-88.jpeg';
 
 const EventSection = () => {
   const { ref, isVisible } = useScrollAnimation();

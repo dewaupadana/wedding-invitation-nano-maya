@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import footerBg from '@/assets/TENGANAN-70.jpg';
+import footerBg from '@/assets/TENGANAN-70.jpeg';
 
 const FooterSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -12,7 +12,7 @@ const FooterSection = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
-        className="py-20 px-6 text-center"
+        className="pt-20 pb-14 px-6 text-center"
       >
         <OrnamentDivider showImage={false} className="mb-8" />
 

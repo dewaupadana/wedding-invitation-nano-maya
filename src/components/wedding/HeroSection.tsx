@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import heroBg from '@/assets/TENGANAN-43.webp';
+import heroBg from '@/assets/TENGANAN-43.jpeg';
 import OrnamentDivider from './OrnamentDivider';
 
 const HeroSection = () => {
@@ -33,7 +33,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="font-script text-4xl sm:text-4xl text-gold-gradient mb-2"
+          className="font-script text-4xl sm:text-4xl text-gold-gradient mb-2 leading-[1.3] pt-2"
         >
           Dewa Agung Sanjaya
         </motion.h1>
