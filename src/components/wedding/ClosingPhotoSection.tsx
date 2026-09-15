@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import closingImg from '@/assets/TENGANAN-131.jpeg';
+import closingImg from '@/assets/PREWEDDING-29.jpg';
 
 const ClosingPhotoSection = () => {
   const { ref, isVisible } = useScrollAnimation();

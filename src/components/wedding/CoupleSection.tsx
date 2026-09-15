@@ -1,32 +1,32 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/TENGANAN-108.jpeg';
-import brideImg from '@/assets/TENGANAN-125.jpeg';
+import groomImg from '@/assets/PREWEDDING-84.jpg';
+import brideImg from '@/assets/PREWEDDING-79.jpg';
 
 const CoupleSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   const people = [
     {
-      name: 'I Dewa Gede Agung Sanjaya Putra',
+      name: 'I Putu Hartana Putra',
       couple:'Putra Pertama Dari Pasangan',
-      parent: 'Dewa Nyoman Arimbawa',
+      parent: 'I Nyoman Miarta',
       and:'&',
-      parent2: 'Ni Nyoman Murniasih (alm)',
-      lokasi: 'Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali',
+      parent2: 'Ni Ketut Ratnawati',
+      lokasi: 'Br Bale Agung, Cemagi, Mengwi, Badung, Bali',
       image: groomImg,
-      label: 'Dewa Agung Sanjaya',
+      label: 'Nano',
     },
     {
-      name: 'Ns. Dewa Ayu Putri Diah Anggraeny, S. Kep',
-      couple:'Putri Pertama Dari Pasangan',
-      parent: 'Dewa Putu Alit',
+      name: 'Maya Siska Sri Rahayu',
+      couple:'Putri Keempat Dari Pasangan',
+      parent: 'Taryadi ',
       and:'&',
-      parent2: 'Desak Ketut Indayani',
+      parent2: 'Sri (Alm)',
       lokasi: 'Br. Kabetan Kelod, Ds. Bakbakan, Gianyar, Bali',
       image: brideImg,
-      label: 'Dewa Ayu Putri',
+      label: 'Maya',
     },
   ];
 
@@ -101,7 +101,7 @@ const CoupleSection = () => {
           );
           })}
       </div>     
-       <motion.div
+       {/* <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={isVisible ? { opacity: 1, y: 0 } : {}}
         transition={{delay: 1.2, duration: 0.8 }}
@@ -115,7 +115,7 @@ const CoupleSection = () => {
       </p>
       <p className="font-script text-center text-lg tracking-wide text-muted-foreground mt-4">
         Dewa Ayu Nyoman Narira Tana
-      </p>
+      </p> */}
     </section>
   );
 };

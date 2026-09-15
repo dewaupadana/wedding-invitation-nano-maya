@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/TENGANAN-88.jpeg';
+import groomImg from '@/assets/PREWEDDING-9.jpg';
 
 const EventSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -55,9 +55,9 @@ const EventSection = () => {
           {/* Upacara Pawiwahan */}
           <div className="mb-10">
             <div className="space-y-1 font-body text-sm text-muted-foreground">
-              <p className="font-semibold">Rabu, 15 April 2026</p>
-              <p>Pukul 13.00 WITA - Selesai</p>
-              <p className="max-w-[280px] mx-auto">Br. Kabetan Kaja, Ds. Bakbakan, Gianyar, Bali</p>
+              <p className="font-semibold">Sabtu, 03 Oktober 2026</p>
+              <p>Pukul 14.00 WITA - Selesai</p>
+              <p className="max-w-[280px] mx-auto">Br Bale Agung, Cemagi, Mengwi, Badung, Bali</p>
             </div>
           </div>
 

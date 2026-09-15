@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
-import heroBg from '@/assets/NYANYI-177.jpeg';
+import heroBg from '@/assets/PREWEDDING-27.jpg';
 
 interface CoverSectionProps {
   isOpen: boolean;
@@ -47,7 +47,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              Dewa Agung Sanjaya
+              Nano
             </motion.h1>
 
             <motion.p
@@ -65,7 +65,7 @@ const CoverSection = ({ isOpen, onOpen }: CoverSectionProps) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
             >
-              Dewa Ayu Putri
+              Maya
             </motion.h1>
           </div>
 

@@ -7,28 +7,28 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
 
 // Slider photos
-import slide1 from '@/assets/TENGANAN-28.jpeg';
-import slide2 from '@/assets/TENGANAN-3.jpeg';
-import slide3 from '@/assets/TENGANAN-7.jpeg';
-import slide4 from '@/assets/TENGANAN-90.jpeg';
-import slide5 from '@/assets/TENGANAN-1.jpeg';
-import slide6 from '@/assets/TENGANAN-25.jpeg';
+import slide1 from '@/assets/PREWEDDING-19.jpg';
+import slide2 from '@/assets/PREWEDDING-24.jpg';
+import slide3 from '@/assets/PREWEDDING-38.jpg';
+import slide4 from '@/assets/PREWEDDING-53.jpg';
+import slide5 from '@/assets/PREWEDDING-57.jpg';
+import slide6 from '@/assets/PREWEDDING-47.jpg';
 
 // Grid photos (different from slider)
-import grid1 from '@/assets/TENGANAN-111.jpeg';
-import grid2 from '@/assets/TENGANAN-2.jpeg';
-import grid3 from '@/assets/TENGANAN-6.jpeg';
-import grid4 from '@/assets/TENGANAN-23.jpeg';
-import grid5 from '@/assets/TENGANAN-9.jpeg';
-import grid6 from '@/assets/TENGANAN-5.jpeg';
-import grid7 from '@/assets/NYANYI-1.jpeg';
-import grid8 from '@/assets/NYANYI-2.jpeg';
-import grid9 from '@/assets/NYANYI-3.jpeg';
-import grid10 from '@/assets/NYANYI-4.jpeg';
-import grid11 from '@/assets/NYANYI-5.jpeg';
-import grid12 from '@/assets/NYANYI-6.jpeg';
-import grid13 from '@/assets/NYANYI-7.jpeg';
-import grid14 from '@/assets/NYANYI-8.jpeg';
+import grid1 from '@/assets/PREWEDDING-24.jpg';
+import grid2 from '@/assets/PREWEDDING-61.jpg';
+import grid3 from '@/assets/PREWEDDING-53.jpg';
+import grid4 from '@/assets/PREWEDDING-38.jpg';
+import grid5 from '@/assets/PREWEDDING-57.jpg';
+import grid6 from '@/assets/PREWEDDING-27.jpg';
+// import grid7 from '@/assets/NYANYI-1.jpeg';
+// import grid8 from '@/assets/NYANYI-2.jpeg';
+// import grid9 from '@/assets/NYANYI-3.jpeg';
+// import grid10 from '@/assets/NYANYI-4.jpeg';
+// import grid11 from '@/assets/NYANYI-5.jpeg';
+// import grid12 from '@/assets/NYANYI-6.jpeg';
+// import grid13 from '@/assets/NYANYI-7.jpeg';
+// import grid14 from '@/assets/NYANYI-8.jpeg';
 
 
 const sliderPhotos = [slide1, slide2, slide3, slide4, slide5, slide6];

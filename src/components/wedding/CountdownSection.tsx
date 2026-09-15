@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
 
-const WEDDING_DATE = new Date('2026-04-15T08:00:00+08:00');
+const WEDDING_DATE = new Date('2026-10-03T08:00:00+08:00');
 
 interface TimeLeft {
   days: number;

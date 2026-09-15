@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import heroBg from '@/assets/TENGANAN-43.jpeg';
+import heroBg from '@/assets/PREWEDDING-6.jpg';
 import OrnamentDivider from './OrnamentDivider';
 
 const HeroSection = () => {
@@ -35,7 +35,7 @@ const HeroSection = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="font-script text-4xl sm:text-4xl text-gold-gradient mb-2 leading-[1.3] pt-2"
         >
-          Dewa Agung Sanjaya
+          Nano
         </motion.h1>
 
         <motion.p
@@ -51,9 +51,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="font-script text-4xl sm:text-4xl text-gold-gradient"
+          className="font-script text-4xl sm:text-4xl text-gold-gradient leading-[1.3] pt-2"
         >
-          Dewa Ayu Putri
+          Maya
         </motion.h1>
       </div>
 
@@ -65,7 +65,7 @@ const HeroSection = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="font-display text-sm tracking-[0.25em] uppercase text-foreground/70 mb-8"
         >
-          15 April 2026
+          03 Oktober 2026
         </motion.p>
 
         <motion.div

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import footerBg from '@/assets/TENGANAN-70.jpeg';
+import footerBg from '@/assets/PREWEDDING-61.jpg';
 
 const FooterSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -26,7 +26,7 @@ const FooterSection = () => {
           <p className="font-display text-sm text-muted-foreground tracking-wider">
             Kami yang berbahagia
           </p>
-          <p className="font-script text-xl text-primary mt-6">Dewa Agung Sanjaya & Dewa Ayu Putri</p>
+          <p className="font-script text-xl text-primary mt-6">Nano & Maya</p>
         </div>
       </motion.div>
 
@@ -39,9 +39,9 @@ const FooterSection = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 text-center pb-8">
-          <p className="font-script text-2xl text-primary mb-1 ">Dewa Agung Sanjaya</p>
+          <p className="font-script text-2xl text-primary mb-1 ">Nano</p>
           <p className="font-script text-2xl text-primary mb-1 ">&</p>
-          <p className="font-script text-2xl text-primary mb-4 ">Dewa Ayu Putri</p>
+          <p className="font-script text-2xl text-primary mb-4 ">Maya</p>
           <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
             Wedding Invitation by Inlabs Bali
           </p>
