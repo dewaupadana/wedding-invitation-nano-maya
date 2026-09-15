@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/PREWEDDING-84.jpg';
+import groomImg from '@/assets/PREWEDDING-84-1.jpg';
 import brideImg from '@/assets/PREWEDDING-79.jpg';
 
 const CoupleSection = () => {
