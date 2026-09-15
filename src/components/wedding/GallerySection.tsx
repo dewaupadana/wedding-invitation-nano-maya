@@ -21,14 +21,14 @@ import grid3 from '@/assets/PREWEDDING-53.jpg';
 import grid4 from '@/assets/PREWEDDING-38.jpg';
 import grid5 from '@/assets/PREWEDDING-57.jpg';
 import grid6 from '@/assets/PREWEDDING-27.jpg';
-// import grid7 from '@/assets/NYANYI-1.jpeg';
-// import grid8 from '@/assets/NYANYI-2.jpeg';
-// import grid9 from '@/assets/NYANYI-3.jpeg';
-// import grid10 from '@/assets/NYANYI-4.jpeg';
-// import grid11 from '@/assets/NYANYI-5.jpeg';
-// import grid12 from '@/assets/NYANYI-6.jpeg';
-// import grid13 from '@/assets/NYANYI-7.jpeg';
-// import grid14 from '@/assets/NYANYI-8.jpeg';
+import grid7 from '@/assets/PREWEDDING-24.jpg';
+import grid8 from '@/assets/PREWEDDING-29.jpg';
+import grid9 from '@/assets/PREWEDDING-38.jpg';
+import grid10 from '@/assets/PREWEDDING-57.jpg';
+import grid11 from '@/assets/PREWEDDING-53.jpg';
+import grid12 from '@/assets/PREWEDDING-47.jpg';
+import grid13 from '@/assets/PREWEDDING-29.jpg';
+import grid14 from '@/assets/PREWEDDING-38.jpg';
 
 
 const sliderPhotos = [slide1, slide2, slide3, slide4, slide5, slide6];
