@@ -7,28 +7,28 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
 
 // Slider photos
-import slide1 from '@/assets/PREWEDDING-19.jpg';
-import slide2 from '@/assets/PREWEDDING-24.jpg';
-import slide3 from '@/assets/PREWEDDING-38.jpg';
-import slide4 from '@/assets/PREWEDDING-53.jpg';
-import slide5 from '@/assets/PREWEDDING-57.jpg';
-import slide6 from '@/assets/PREWEDDING-47.jpg';
+import slide1 from '@/assets/WEDDING-1.jpeg';
+import slide2 from '@/assets/WEDDING-2.jpeg';
+import slide3 from '@/assets/GALLERY-10.jpeg';
+import slide4 from '@/assets/WEDDING-4.jpeg';
+import slide5 from '@/assets/GALLERY-6.jpeg';
+import slide6 from '@/assets/WEDDING-7.jpeg';
 
 // Grid photos (different from slider)
-import grid1 from '@/assets/PREWEDDING-24.jpg';
-import grid2 from '@/assets/PREWEDDING-61.jpg';
-import grid3 from '@/assets/PREWEDDING-53.jpg';
-import grid4 from '@/assets/PREWEDDING-38.jpg';
-import grid5 from '@/assets/PREWEDDING-57.jpg';
-import grid6 from '@/assets/PREWEDDING-27.jpg';
-import grid7 from '@/assets/PREWEDDING-24.jpg';
-import grid8 from '@/assets/PREWEDDING-29.jpg';
-import grid9 from '@/assets/PREWEDDING-38.jpg';
-import grid10 from '@/assets/PREWEDDING-57.jpg';
-import grid11 from '@/assets/PREWEDDING-53.jpg';
-import grid12 from '@/assets/PREWEDDING-47.jpg';
-import grid13 from '@/assets/PREWEDDING-29.jpg';
-import grid14 from '@/assets/PREWEDDING-38.jpg';
+import grid1 from '@/assets/GALLERY-1.jpeg';
+import grid2 from '@/assets/GALLERY-2.jpeg';
+import grid3 from '@/assets/GALLERY-3.jpeg';
+import grid4 from '@/assets/GALLERY-4.jpeg';
+import grid5 from '@/assets/GALLERY-5.jpeg';
+import grid6 from '@/assets/WEDDING-5.jpeg';
+import grid7 from '@/assets/GALLERY-7.jpeg';
+import grid8 from '@/assets/GALLERY-8.jpeg';
+import grid9 from '@/assets/GALLERY-9.jpeg';
+import grid10 from '@/assets/WEDDING-3.jpeg';
+import grid11 from '@/assets/GALLERY-11.jpeg';
+import grid12 from '@/assets/GALLERY-12.jpeg';
+import grid13 from '@/assets/GALLERY-13.jpeg';
+import grid14 from '@/assets/GALLERY-14.jpeg';
 
 
 const sliderPhotos = [slide1, slide2, slide3, slide4, slide5, slide6];

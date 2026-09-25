@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/PREWEDDING-9.jpg';
+import groomImg from '@/assets/WEDDING-9.jpeg';
 
 const EventSection = () => {
   const { ref, isVisible } = useScrollAnimation();

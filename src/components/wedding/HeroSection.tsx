@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import heroBg from '@/assets/PREWEDDING-6.jpg';
+import heroBg from '@/assets/WEDDING-6.jpeg';
 import OrnamentDivider from './OrnamentDivider';
 
 const HeroSection = () => {

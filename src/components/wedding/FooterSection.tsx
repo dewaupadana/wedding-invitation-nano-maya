@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import footerBg from '@/assets/PREWEDDING-61.jpg';
+import footerBg from '@/assets/WEDDING-61.jpeg';
 
 const FooterSection = () => {
   const { ref, isVisible } = useScrollAnimation();

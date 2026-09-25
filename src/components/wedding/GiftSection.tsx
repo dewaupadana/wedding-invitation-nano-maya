@@ -8,14 +8,14 @@ import { toast } from 'sonner';
 const accounts = [
   {
     bank: 'Bank BCA',
-    number: '4160594646',
-    name: 'I Dewa Gede Agung Sanjaya Putra',
+    number: '6115468271',
+    name: 'I Putu Hartana Putra',
   },
-  {
-    bank: 'BPD Bali ',
-    number: '0310215001930',
-    name: 'Dewa Ayu Putri Diah Anggraeny',
-  },
+  // {
+  //   bank: 'BPD Bali ',
+  //   number: '0310215001930',
+  //   name: 'Dewa Ayu Putri Diah Anggraeny',
+  // },
 ];
 
 const GiftSection = () => {

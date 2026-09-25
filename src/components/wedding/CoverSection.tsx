@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
-import heroBg from '@/assets/PREWEDDING-27.jpg';
+import heroBg from '@/assets/WEDDING-27.jpeg';
 
 interface CoverSectionProps {
   isOpen: boolean;

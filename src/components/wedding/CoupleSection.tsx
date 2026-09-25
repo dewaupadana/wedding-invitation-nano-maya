@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import OrnamentDivider from './OrnamentDivider';
-import groomImg from '@/assets/PREWEDDING-84-1.jpg';
-import brideImg from '@/assets/PREWEDDING-79.jpg';
+import groomImg from '@/assets/WEDDING-84.jpeg';
+import brideImg from '@/assets/WEDDING-79.jpeg';
 
 const CoupleSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -24,7 +24,7 @@ const CoupleSection = () => {
       parent: 'Taryadi ',
       and:'&',
       parent2: 'Sri (Alm)',
-      lokasi: 'Br. Kabetan Kelod, Ds. Bakbakan, Gianyar, Bali',
+      // lokasi: 'Br. Kabetan Kelod, Ds. Bakbakan, Gianyar, Bali',
       image: brideImg,
       label: 'Maya',
     },
