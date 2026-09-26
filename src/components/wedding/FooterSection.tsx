@@ -26,7 +26,7 @@ const FooterSection = () => {
           <p className="font-display text-sm text-muted-foreground tracking-wider">
             Kami yang berbahagia
           </p>
-          <p className="font-script text-xl text-primary mt-6">Nano & Maya</p>
+          <p className="font-script text-xl text-primary mt-6 tracking-[0.15em]">Nano & Maya</p>
         </div>
       </motion.div>
 
@@ -34,7 +34,7 @@ const FooterSection = () => {
       <div className="relative w-full h-[600px] overflow-hidden">
         <img
           src={footerBg}
-          alt="Dewa & Dewa Ayu"
+          alt="Nano & Maya"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />

@@ -62,7 +62,7 @@ const EventSection = () => {
           </div>
 
           <a
-            href="https://maps.app.goo.gl/f6aQdJKS29SM6ubEA"
+            href="https://maps.app.goo.gl/JC4S6wHZkZAUZ29QA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 border border-primary text-primary font-display text-xs tracking-[0.2em] uppercase

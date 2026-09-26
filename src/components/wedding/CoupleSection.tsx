@@ -14,7 +14,7 @@ const CoupleSection = () => {
       parent: 'I Nyoman Miarta',
       and:'&',
       parent2: 'Ni Ketut Ratnawati',
-      lokasi: 'Br Bale Agung, Cemagi, Mengwi, Badung, Bali',
+      // lokasi: 'Br Bale Agung, Cemagi, Mengwi, Badung, Bali',
       image: groomImg,
       label: 'Nano',
     },
@@ -29,11 +29,6 @@ const CoupleSection = () => {
       label: 'Maya',
     },
   ];
-
-//   const mepandesPeople = [
-//   "I Dewa Gede Alit Upadana",
-//   "Dewa Ayu Nyoman Narira Tana",
-// ];
 
  return (
     <section ref={ref} className="py-16 px-6 mb-6 bg-gradient-to-b from-muted via-muted/80 to-background">
@@ -83,9 +78,9 @@ const CoupleSection = () => {
                  <p className="font-body text-sm text-muted-foreground max-w-xs">
                   {person.parent2}
                 </p>
-                 <p className="font-body text-sm text-muted-foreground max-w-xs mt-6">
+                 {/* <p className="font-body text-sm text-muted-foreground max-w-xs mt-6">
                   {person.lokasi}
-                </p>
+                </p> */}
               </motion.div>
               { i == 0 ? 
                 <motion.div
@@ -101,21 +96,6 @@ const CoupleSection = () => {
           );
           })}
       </div>     
-       {/* <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={isVisible ? { opacity: 1, y: 0 } : {}}
-        transition={{delay: 1.2, duration: 0.8 }}
-        className="text-center mt-16"
-      >
-        <p className="font-script text-3xl text-primary mb-4">Mepandes</p>
-        <OrnamentDivider showImage={false} />
-      </motion.div>
-      <p className="font-script text-center text-lg tracking-wide text-muted-foreground mt-8">
-        I Dewa Gede Alit Upadana
-      </p>
-      <p className="font-script text-center text-lg tracking-wide text-muted-foreground mt-4">
-        Dewa Ayu Nyoman Narira Tana
-      </p> */}
     </section>
   );
 };
