@@ -42,9 +42,9 @@ const FooterSection = () => {
           <p className="font-script text-2xl text-primary mb-1 ">Nano</p>
           <p className="font-script text-2xl text-primary mb-1 ">&</p>
           <p className="font-script text-2xl text-primary mb-4 ">Maya</p>
-          <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
+          {/* <p className="font-body text-xs text-muted-foreground tracking-widest uppercase">
             Wedding Invitation by Inlabs Bali
-          </p>
+          </p> */}
           <p className="font-body text-xs text-muted-foreground/50 mt-3">
             #INLABS2026
           </p>
